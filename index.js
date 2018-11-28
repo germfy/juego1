@@ -1,8 +1,11 @@
 var myObstacles = [];
 
 function startGame() {
+  window.onload = function(){
     myGameArea.start();
-    player = new component(30, 30, "red", 0, 110);
+    player = new component(30, 30, "red", 0, 110);<htm
+  }
+
 }
 
 var myGameArea = {
